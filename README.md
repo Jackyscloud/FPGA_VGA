@@ -2,6 +2,7 @@
 ## 目前的方向
 1. 完成 Imagination open course 的 lab，其中包含所需腳位如SPI，I2C
 2. 訂定成品的呈現方式
+3. [Google Site](https://sites.google.com/d/1U_Oyyk2RSfOZb9uUlZu4OMGW24pYhJ6V/p/1NmLNO8yAh2Bve7i93Q7590RamIYJIN_b/edit?userstoinvite=chou987654123%40gmail.com&actionButton=1)
 
 [RISCV](https://eprints.ucm.es/id/eprint/62106/1/DANIEL_LEON_GONZALEZ_DL_-_FPGA_Implementation_of_an_ad-hoc_RISC-V_SoC_for_Industrial_IoT__Graded__4286351_962908330.pdf)
 
