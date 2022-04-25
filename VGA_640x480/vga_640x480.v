@@ -1,14 +1,14 @@
 module vga_640x480 (
     //input
-    input clk,
-    input clr,
+    input wire clk,
+    input wire clr,
 
     //output
-    output hsync,
-    output vsync,
-    output [9:0] hc,
-    output [9:0] vc,
-    output vidon
+    output reg hsync,
+    output reg vsync,
+    output reg [9:0] hc,
+    output reg [9:0] vc,
+    output reg vidon
 );
 parameter hpixels = 10'b11001_00000;
     // value of pixels in a horizonal line = 800

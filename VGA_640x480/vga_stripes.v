@@ -1,9 +1,9 @@
 module vga_stripes(
-    input vidon,
-    input [9:0] hc, vc,
+    input wire vidon,
+    input wire [9:0] hc, vc,
 
-    output [2:0] red, green,
-    output [1:0] blue
+    output reg [2:0] red, green,
+    output reg [1:0] blue
 );
 
 // output red, green stripes 16 lines wide
