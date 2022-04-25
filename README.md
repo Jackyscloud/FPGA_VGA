@@ -7,17 +7,11 @@
 
 ---
 ## 要向學長詢問的問題
-1. 最終專題的RISCV核心可以直接使用open course中所提供的嗎?
-    可以，但是要提供reference以及如何使用
-3. 如果完成open course的lab，還需要自己重新寫腳位的verilog嗎? 因為open course 是使用c來完成腳位 (進度?)
-    同上
-4. c語言載入板子 and Assembly language ?
-    都可
-
-5. 上學期、暑假、下學期的大概進度?
-    能做完就好
-7. 專題期中報告、期末報告的內容或需要注意的事項?
-    reference都要註明清楚
+1. 最終專題的RISCV核心可以直接使用open course中所提供的嗎? 可以，但是要提供reference以及如何使用
+3. 如果完成open course的lab，還需要自己重新寫腳位的verilog嗎? 因為open course 是使用c來完成腳位 (進度?)   同上
+4. c語言載入板子 and Assembly language ?  都可
+5. 上學期、暑假、下學期的大概進度? 能做完就好
+7. 專題期中報告、期末報告的內容或需要注意的事項?  reference都要註明清楚
 
 ## FPGA圖像處理
 要了解的部分
@@ -29,11 +23,10 @@ Embedded System
 * zedboard
 * litex
 
-
 ## VGA Note
 
-- [ ] Web
-- [ ] Github
+- [ ] Web https://sites.google.com/d/1U_Oyyk2RSfOZb9uUlZu4OMGW24pYhJ6V/p/1NmLNO8yAh2Bve7i93Q7590RamIYJIN_b/edit
+- [ ] Github 
 - [ ] VGA start
 - [ ] VGA Application
 - [ ] RISCV output VGA
