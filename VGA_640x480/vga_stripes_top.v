@@ -2,9 +2,11 @@
 
 module vga_stripes_top(
     input wire btn,
-    input wire clk25;
-    output wire hsync, vsync,
-    output wire [2:0] red, green,
+    input wire clk25,
+    output wire hsync,
+    output wire vsync,
+    output wire [2:0] red, 
+    output wire [2:0] green,
     output wire [1:0] blue
 );
 wire clr, vidon;
