@@ -9,12 +9,10 @@
 Digital Design Using Digilent FPGA Boards [ISBN 978-0-09801337-7-6] Richard E. Haskell Darrin M Hanna, 2009
 ---
 ##Files
-vga_640x480---------verilog files
-project_vga_640x480---------vivado project files
--
--
--
--
+
+1. vga_640x480---------verilog files
+2. project_vga_640x480---------vivado project files
+
 
 
 ---
