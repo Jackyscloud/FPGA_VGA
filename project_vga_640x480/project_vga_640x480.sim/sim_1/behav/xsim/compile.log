@@ -4,7 +4,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jacky/Desktop/RISCV/VGA_64
 INFO: [VRFC 10-311] analyzing module vga_stripes
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jacky/Desktop/RISCV/VGA_640x480/vga_stripes_top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module vga_stripes_top
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jacky/Desktop/RISCV/VGA_640x480/tb_vga_top.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_vga_top
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/jacky/Desktop/RISCV/project_vga_640x480/project_vga_640x480.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
