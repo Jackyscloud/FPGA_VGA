@@ -10,7 +10,7 @@ module vga_640x480 (
     output reg [9:0] vc,
     output reg vidon
 );
-parameter hpixels = 10'b11001_00000;
+parameter hpixels = 10'b11001_00000; //dex 800
     // value of pixels in a horizonal line = 800
 parameter vlines = 10'b10000_01001;
     // number of horizonal lines in the display = 521
