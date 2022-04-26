@@ -15,7 +15,6 @@ Digital Design Using Digilent FPGA Boards [ISBN 978-0-09801337-7-6] Richard E. H
 
 
 
----
 ## 要向學長詢問的問題
 1. 最終專題的RISCV核心可以直接使用open course中所提供的嗎? 可以，但是要提供reference以及如何使用
 3. 如果完成open course的lab，還需要自己重新寫腳位的verilog嗎? 因為open course 是使用c來完成腳位 (進度?)   同上
