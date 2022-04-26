@@ -1,9 +1,21 @@
 # 專題
+##Reference
 [RISCV](https://eprints.ucm.es/id/eprint/62106/1/DANIEL_LEON_GONZALEZ_DL_-_FPGA_Implementation_of_an_ad-hoc_RISC-V_SoC_for_Industrial_IoT__Graded__4286351_962908330.pdf)
 
 [https://sites.google.com/view/riscv/home](https://sites.google.com/view/riscv/home)
 
 [https://www.westerndigital.com/zh-tw/solutions/risc-v](https://www.westerndigital.com/zh-tw/solutions/risc-v)
+
+Digital Design Using Digilent FPGA Boards [ISBN 978-0-09801337-7-6] Richard E. Haskell Darrin M Hanna, 2009
+---
+##Files
+vga_640x480---------verilog files
+project_vga_640x480---------vivado project files
+-
+-
+-
+-
+
 
 ---
 ## 要向學長詢問的問題
