@@ -1,24 +1,30 @@
 //Example vga_stripes_top
-`timescale 1ns/1ps //one finish cycle set 18000ms
+//`timescale 1ns/1ps //one finish cycle set 18000ms
 
-module vga_stripes_top();
+module vga_stripes_top(
+    input wire clk,
+    input wire btn,
 
-reg btn;
-reg clk25;
-wire hsync;
-wire vsync;
-wire [2:0] red; 
-wire [2:0] green;
-wire [1:0] blue;
-
-wire clr;
+    output wire hsync,
+    output wire vsync,
+    output wire [2:0] red, 
+    output wire [2:0] green,
+    output wire [1:0] blue
+);
+//function output
+wire clk25;
 wire vidon;
 wire [9:0] hc, vc;
 
-assign clr = btn;
+
+clock_div U3 (
+    .mclk(clk),
+    .clr(btn),
+    .clk_out(clk25)
+);
 
 vga_640x480 U1 (
-    .clk(clk25), .clr(clr), .hsync(hsync), .vsync(vsync), .hc(hc), .vc(vc), .vidon(vidon)
+    .clk(clk25), .clr(btn), .hsync(hsync), .vsync(vsync), .hc(hc), .vc(vc), .vidon(vidon)
 );
 
 vga_stripes U2 (
@@ -26,15 +32,15 @@ vga_stripes U2 (
 );
 
 
-initial begin
+/*initial begin
     btn = 1;
-    clk25 = 1'b1;
-    #40 btn = 0;
+    clk = 1'b1;
+    #10 btn = 0;
 end
 
 
 
-always #20 clk25 = ~clk25; //25MHz
+always #5 clk = ~clk; //100MHz*/
 
 
 endmodule

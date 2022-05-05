@@ -9,7 +9,7 @@ input clr;
 output clk_out;
 
 wire clk_out;
-reg [25:0] q;
+reg [2:0] q;
 
 always @(posedge mclk)
 begin
@@ -17,6 +17,6 @@ begin
     else q <= q + 1'b1;
 end
 
-assign clk_out = q[25];
+assign clk_out = q[2];//div 4
 
 endmodule
