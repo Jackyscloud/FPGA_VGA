@@ -1,9 +1,0 @@
-0.6
-2018.3
-Dec  7 2018
-00:33:28
-,,,,,,,,,,,,,,
-C:/Users/jacky/Desktop/RISCV/VGA_640x480/vga_640x480.v,1650966831,verilog,,C:/Users/jacky/Desktop/RISCV/VGA_640x480/vga_stripes.v,,vga_640x480,,,,,,,,
-C:/Users/jacky/Desktop/RISCV/VGA_640x480/vga_stripes.v,1650964155,verilog,,C:/Users/jacky/Desktop/RISCV/VGA_640x480/vga_stripes_top.v,,vga_stripes,,,,,,,,
-C:/Users/jacky/Desktop/RISCV/VGA_640x480/vga_stripes_top.v,1650968682,verilog,,C:/Users/jacky/Desktop/RISCV/VGA_640x480/tb_vga_top.v,,vga_stripes_top,,,,,,,,
-C:/Users/jacky/Desktop/RISCV/project_vga_640x480/project_vga_640x480.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
