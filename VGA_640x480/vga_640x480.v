@@ -12,16 +12,20 @@ module vga_640x480 (
 );
 parameter hpixels = 10'b11001_00000; //dex 800
     // value of pixels in a horizonal line = 800
-parameter vlines = 10'b10000_01001;
-    // number of horizonal lines in the display = 521
-parameter hbp = 10'b00100_10000;
-    // horizonal back porch = 144
+parameter vlines = 10'b1000001101;
+    // number of horizonal lines in the display = 525
+parameter hbp = 10'b10010000;
+    // horizonal back porch end = 0 + sp + bp = 0 + 96 + 48(video line start)
 parameter hfp = 10'b11000_10000;
-    // horizonal front porch = 784
-parameter vbp = 10'b00000_11111;
-    // vertial back porch = 31
-parameter vfp = 10'b01111_11111;
-    // vertial front porch = 511
+    // horizonal front porch end = 784(video line end)
+parameter vbp = 10'b100011;
+    // vertial back porch = 35
+parameter vfp = 10'b1000000011;
+    // vertial front porch = 515
+parameter hs_low = 10'b1100000;//96
+
+parameter vs_low = 2;//2
+
 reg vsenable; //enable for vertial counter
 
 // Counter for the horizontal sync signal
@@ -45,10 +49,10 @@ always @(posedge clk or posedge clr)
             end
     end
 // Generate hsync pulse
-// Horizontal Sync Pulse is low when hc is 0 - 127
+// Horizontal Sync Pulse is low when hc is 0 to hs_low
 always @ (*)
     begin
-        if (hc < 128)
+        if (hc < hs_low)
             hsync = 0;
         else
             hsync = 1;
@@ -70,10 +74,10 @@ always @(posedge clk or posedge clr)
     end
 
 //Generate vsync pulse
-// Vertical Sync Pulse is low when hc is 0 or 1
+// Vertical Sync Pulse is low when hc is 0 to vs_low
 always @(*)
     begin
-        if (vc < 2)
+        if (vc < vs_low)
             vsync = 0;
         else
             vsync = 1;

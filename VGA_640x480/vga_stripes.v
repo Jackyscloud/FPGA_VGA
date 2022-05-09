@@ -16,6 +16,7 @@ always@(*)
             begin
                 red = {vc[4], vc[4], vc[4]};
                 green = ~{vc[4], vc[4], vc[4]};
+                blue = 0;
             end
     end
 endmodule
