@@ -14,8 +14,8 @@ always@(*)
         blue = 0;
         if (vidon == 1)
             begin
-                red = {vc[4], vc[4], vc[4]};
-                green = ~{vc[4], vc[4], vc[4]};
+                red = {vc[0], vc[0], vc[0]};
+                green = {1, 1, 1};
                 blue = 0;
             end
     end

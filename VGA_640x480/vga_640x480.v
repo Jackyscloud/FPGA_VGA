@@ -86,7 +86,7 @@ always @(*)
 // Enable video out when within the porches
 always@(*)
     begin
-        if ((hc < hfp) && (hc > hbp) && (vc < vfp) && (vc > vbp))
+        if ((hc < hfp) && (hc >= hbp) && (vc < vfp) && (vc >= vbp))
             vidon = 1;
         else
             vidon = 0;
